@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['10.0.0.197', 'localhost']
+ALLOWED_HOSTS = ['10.0.0.197', 'localhost', 'tournament-time.herokuapp.com']
 
 
 # Application definition
