@@ -132,6 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
      'http://localhost:3000',
      'http://10.0.0.197:3000',
+     'https://tournament-time.herokuapp.com'
 ]
 
 REST_FRAMEWORK = {
