@@ -38,8 +38,6 @@ class Score(models.Model):
     tournament = models.ForeignKey(Tournament, related_name='scores', on_delete=models.CASCADE)
     # round
     round = models.IntegerField(default=1)
-    # partners
-    # partners = HStoreField(child=models.CharField, allow_empty=True)
     # Hole 1 Score
     hole1 = models.IntegerField(blank=True, default=0)
     hole2 = models.IntegerField(blank=True, default=0)
