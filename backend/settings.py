@@ -141,6 +141,7 @@ CORS_ORIGIN_WHITELIST = [
      'http://10.0.0.197:3000',
      'https://tournament-time.herokuapp.com',
      'https://tournament-time-client.vercel.app',
+     'https'
 ]
 
 REST_FRAMEWORK = {
